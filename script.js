@@ -1,10 +1,6 @@
-function showsidebar(){
-    const sidebar = document.querySelector('#sidebar')
-    sidebar.style.display ='flex' 
-}
-
-function hidebar(){
-    const sidebar = document.querySelector('#sidebar')
-    sidebar.style.display ='none' 
-}
-
+fetch("navbar.html")
+  .then((response) => response.text())
+  .then((html) => (document.getElementById("navbar").innerHTML = html));
+fetch("footer.html")
+  .then((response) => response.text())
+  .then((html) => (document.getElementById("footer").innerHTML = html));

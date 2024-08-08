@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  width: 95%;
+  padding: 0 10px;
+}
+
+.filter-column {
+  width: 20%;
+}
+.product-column {
+  width: 80%;
+}
+
+.navbar {
+  position: sticky;
+  margin-bottom: 40px;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
